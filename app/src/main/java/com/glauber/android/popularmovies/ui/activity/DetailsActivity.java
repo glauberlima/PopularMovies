@@ -29,16 +29,13 @@ public class DetailsActivity extends AppCompatActivity {
                 .load(posterUrl)
                 .into(moviePoster);
 
-        this.setTitle(movieParcelable.getTitle() + " (" + movieParcelable.getReleaseYear() + ")");
+        this.setTitle(title + " (" + releaseYearString + ")");
 
         TextView releaseDateView = (TextView) findViewById(R.id.movie_release_date);
         releaseDateView.setText(releaseYearString);
 
         TextView synopsisView = (TextView) findViewById(R.id.movie_synopsis);
         synopsisView.setText(synopsis);
-
-        TextView movieTitleView = (TextView) findViewById(R.id.movie_title);
-        movieTitleView.setText(title);
 
         TextView userRatingView = (TextView) findViewById(R.id.movie_user_rating);
         userRatingView.setText(userRating.toString());

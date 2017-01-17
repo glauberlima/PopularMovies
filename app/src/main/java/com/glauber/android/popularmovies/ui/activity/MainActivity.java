@@ -120,12 +120,12 @@ public class MainActivity extends AppCompatActivity {
         retrieveMovies(context);
     }
 
-    @Override
-    protected void onResume() {
-        super.onResume();
-        final Context context = this;
-        retrieveMovies(context);
-    }
+//    @Override
+//    protected void onResume() {
+//        super.onResume();
+//        final Context context = this;
+//        retrieveMovies(context);
+//    }
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {

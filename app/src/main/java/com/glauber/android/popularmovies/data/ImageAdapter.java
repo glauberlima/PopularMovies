@@ -10,6 +10,7 @@ import android.widget.ImageView;
 import com.glauber.android.popularmovies.model.Movie;
 import com.squareup.picasso.Picasso;
 
+
 /**
  * Created by glauberl on 1/5/2017.
  */
